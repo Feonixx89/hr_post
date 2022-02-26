@@ -26,6 +26,7 @@
 
     &__text {
       text-align: left;
+      white-space: pre-line;
 
       @include respond(phone) {
         margin-bottom: 2.5rem !important;
@@ -38,6 +39,7 @@
         font-weight: bold;
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
+        white-space: pre-line;
 
         @include respond(phone) {
           font-size: 2rem;
