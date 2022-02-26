@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="Успей записаться на программу эффективный рекрутмент" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -39,14 +39,16 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  'Если Вы:\n' +
+                  '✔\tиспытываете постоянный стресс на работе;\n' +
+                  '✔\tмечтаете о быстром и качественном закрытии вакансий;\n' +
+                  '✔\tхотите освоить или развить компетенции рекрутера;\n' +
+                  '✔\tнацелены на получение стабильного дохода.\n\n' +
+                  'Программа «Эффективный рекрутинг» позволит в короткий срок и без отрыва от работы «прокачать» компетенции в области подбора, получить полезные и мощные инструменты привлечения в компанию лучших сотрудников.\n\n' +
+                  'Занятия проводятся по субботам (2.04, 9.04, 16.04.2022г.) \n' +
+                  'Действует раннее бронирование до 21.03.2022г. \n' +
+                  'Стоимость курса 5800 руб.'
+                  }
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -56,7 +58,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      Программа
                     </a>
                   </span>
                 )}
